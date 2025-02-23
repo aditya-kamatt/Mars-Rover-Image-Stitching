@@ -53,6 +53,9 @@ Make sure you have these toolboxes installed for full functionality.
 
 Ensure that the images you wish to stitch are available and placed in the correct directory as referenced within the scripts. You might need to adjust file paths depending on your setup.
 
+![Curiosity Rover Images](https://github.com/user-attachments/assets/0e40bea7-090f-4a7d-8cf7-3fd090ea90e1)
+
+
 2. Run the Live Script:
 
 Execute `MarsRoverFinal.mlx` in MATLAB. The script will:
@@ -60,6 +63,9 @@ Execute `MarsRoverFinal.mlx` in MATLAB. The script will:
   - Load the images.
   - Perform image registration using registerImages.m.
   - Display the final stitched panoramic image.
+
+![Panorama](https://github.com/user-attachments/assets/180eec21-d4b1-4204-8810-77935c59315c)
+
 
 3. Adjust Parameters:
 - If needed, modify parameters in `registerImages.m` to improve the registration accuracy for different sets of images.
