@@ -72,23 +72,39 @@ Execute `MarsRoverFinal.mlx` in MATLAB. The script will:
 
 ## Results
 
-- Feature Detection & Matching:
-Learnt how to detect key features in individual images and match them across overlapping regions.
+### Fundamentals of Computer Vision & Image Processing
+- **Image Stitching Techniques:**  
+  I gained a deep understanding of how to merge multiple images into a single cohesive panorama, an essential skill in many computer vision applications.
 
-- Image Registration Techniques:
-Understood how to compute and apply geometric transformations (e.g., affine or perspective transformations) to align multiple images into a seamless panorama.
+- **Feature Detection and Matching:**  
+  I explored key algorithms like SIFT, SURF, and ORB to detect and match features between overlapping images, enabling accurate alignment.
 
-- Algorithm Optimization:
-Experimented with different parameters in the registration process to improve alignment accuracy, reduce misalignment artifacts, and optimize the stitching process.
+- **Homography and Perspective Transformation:**  
+  I learned how to compute homography matrices to warp images correctly, which is critical for aligning images taken from different angles or perspectives.
 
-- MATLAB Scripting & Workflow Automation:
-Gained proficiency in using MATLAB, particularly its live script environment, to build, execute, and visualize an entire image processing pipeline.
+### Practical Implementation Skills
+- **Python and OpenCV:**  
+  This project allowed me to enhance my Python programming skills, particularly in using OpenCV—a powerful library for image processing and computer vision tasks.
 
-- Handling Real-World Data Challenges:
-Explored challenges such as variations in lighting, perspective distortions, and noise in Mars rover imagery, and learnt techniques to mitigate these issues.
+- **Algorithmic Problem Solving:**  
+  I encountered and solved real-world challenges such as handling perspective distortions, optimizing feature matching, and reducing stitching artifacts.
 
-- Visualization & Analysis:
-Developed skills in visualizing intermediate steps (e.g., feature matches, transformation overlays) as well as the final stitched image, which can be valuable for both debugging and presenting results.
+- **Image Blending Techniques:**  
+  I experimented with various methods for blending images seamlessly, ensuring smooth transitions and reducing visible seams in the final output.
 
-- Application in Remote Sensing & Robotics:
-Demonstrated how image stitching is applied in practical scenarios like planetary exploration, terrain mapping, and enhancing the visual context for autonomous navigation.
+### Data Handling and Experimentation
+- **Working with Raw Image Data:**  
+  I learned how to handle and process raw images, which involved tasks like color correction, resizing, and noise reduction, all of which are vital for pre-processing before stitching.
+
+- **Experimentation and Tuning:**  
+  The project encouraged me to try out different parameters and techniques—such as tuning feature detection thresholds and experimenting with blending methods—to achieve the best results.
+
+### Advanced Topics and Best Practices
+- **Robustness in Varying Conditions:**  
+  I explored how to make the stitching process robust against challenges like varying lighting conditions, occlusions, and camera movement, all common in real-world scenarios.
+
+- **Optimization and Efficiency:**  
+  I learned methods to optimize the performance of the stitching algorithm, making it feasible to process high-resolution images more efficiently.
+
+- **Real-World Application Insight:**  
+  Working with images from a Mars rover provided a unique perspective on how computer vision techniques are applied in space exploration and remote sensing.
