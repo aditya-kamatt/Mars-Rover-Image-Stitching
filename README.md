@@ -70,7 +70,7 @@ Execute `MarsRoverFinal.mlx` in MATLAB. The script will:
 3. Adjust Parameters:
 - If needed, modify parameters in `registerImages.m` to improve the registration accuracy for different sets of images.
 
-## Results
+## What I Learned
 
 ### Fundamentals of Computer Vision & Image Processing
 - **Image Stitching Techniques:**  
